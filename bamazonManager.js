@@ -74,7 +74,7 @@ var addInventory = function(){
             {
             name:'id',
             type:'input',
-            message:'Please enter the product id you wish to add inventory', 
+            message:'Please enter the item id of the product you wish to add inventory into ', 
             validate:function(value){
                 if(isNaN(value) == false && parseInt(value) <= res.length && parseInt(value) > 0){
                     return true;

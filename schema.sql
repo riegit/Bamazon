@@ -35,8 +35,8 @@ PRIMARY KEY(department_id)
 INSERT INTO departments(department_name, over_head_costs, total_sales)
 VALUES ('ENTERTAINMENT', 50000.00, 15000.00),
     ('ELECTRONICS', 20000.00, 12000.00),
-    ('HOME & KITCHEN', 30000.00, 15000.00),
-    ('BODY & HEALTH', 3000.00, 12000.00),
-    ('BOOKs & Musics', 40000.00, 12000.00),
+    ('HOME & KITCHEN', 20000.00, 15000.00),
+    ('BODY & HEALTH', 5000.00, 22000.00),
+    ('BOOKs & Musics', 40000.00, 18000.00),
     ('CLOTHING', 35000.00, 15000.00),
-    ('Outdoor & Garden', 12000.00, 12000.00);
+    ('Outdoor & Garden', 12000.00, 11000.00);
